@@ -19,7 +19,7 @@
 
 find_package(PkgConfig QUIET)
 
-pkg_check_modules(FRIBIDI_PC REQUIRED fribidi)
+#pkg_check_modules(FRIBIDI_PC REQUIRED fribidi)
 
 find_path(FRIBIDI_INCLUDE_DIR
   NAMES
